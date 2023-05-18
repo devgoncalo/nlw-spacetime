@@ -1,5 +1,5 @@
-import './globals.css'
 import { ReactNode } from 'react'
+import './globals.css'
 import {
   Roboto_Flex as Roboto,
   Bai_Jamjuree as BaiJamjuree,
@@ -16,7 +16,7 @@ const baiJamjuree = BaiJamjuree({
 export const metadata = {
   title: 'NLW Spacetime',
   description:
-    'Uma cápsula do tempo construída com React, Next.js, TailwindCSS e Typescript.',
+    'Uma cápsula do tempo contruída com React, Next.js, TailwindCSS e TypeScript',
 }
 
 export default function RootLayout({ children }: { children: ReactNode }) {
