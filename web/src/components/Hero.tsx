@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import Link from 'next/link'
 
 import nlwLogo from '../assets/nlw-spacetime-logo.svg'
+import Link from 'next/link'
 
 export function Hero() {
   return (
@@ -12,7 +12,7 @@ export function Hero() {
         <h1 className="text-5xl font-bold leading-tight text-gray-50">
           Sua cápsula do tempo
         </h1>
-        <p className="mt-1 text-lg">
+        <p className="text-lg leading-relaxed">
           Colecione momentos marcantes da sua jornada e compartilhe (se quiser)
           com o mundo!
         </p>
@@ -22,7 +22,7 @@ export function Hero() {
         className="inline-block rounded-full bg-green-500 px-5 py-3 font-alt text-sm uppercase leading-none text-black hover:bg-green-600"
         href="/memories/new"
       >
-        CADASTRAR LEMBRANçA
+        CADASTRAR LEMBRANÇA
       </Link>
     </div>
   )

@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 body {
-    --webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegiibility;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
